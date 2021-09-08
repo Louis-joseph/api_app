@@ -1,4 +1,8 @@
 api_platform:
+    title: 'Feet on your cake'
+    description: 'API dédiée au fétichisme'
+    version: '1.0.0'
+
     mapping:
         paths: ['%kernel.project_dir%/src/Entity']
     patch_formats:
