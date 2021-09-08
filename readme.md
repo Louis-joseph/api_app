@@ -19,6 +19,7 @@ symfony create-project symfony/skeleton api
 ### Lancer l'environnement de développement
 composer install
 symfony composer req api
+composer require --dev orm-fixtures
 
 ### Design pattern
 
