@@ -1,7 +1,7 @@
 # Stackoo
 
 Hello✌😊
-"Focus Back-end" haha non.
+"Focus Back-end" hahaha
 
 ## Environnement de développement
 
