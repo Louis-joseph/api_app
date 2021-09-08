@@ -35,7 +35,7 @@ class Foyc
     private $Date_date;
 
     /**
-     * @ORM\Column(type="integer")
+     * @ORM\Column(type="integer", nullable=true)
      */
     private $Age;
 
@@ -45,7 +45,7 @@ class Foyc
     private $Image;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", length=255, nullable=true)
      */
     private $Description;
 
@@ -95,7 +95,7 @@ class Foyc
         return $this->Age;
     }
 
-    public function setAge(int $Age): self
+    public function setAge(?int $Age): self
     {
         $this->Age = $Age;
 
@@ -119,7 +119,7 @@ class Foyc
         return $this->Description;
     }
 
-    public function setDescription(string $Description): self
+    public function setDescription(?string $Description): self
     {
         $this->Description = $Description;
 
