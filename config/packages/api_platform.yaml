@@ -1,4 +1,7 @@
 api_platform:
+    title: 'Feet on your cake'
+    description: 'lieux d’échanges de photos payantes entre fétichistes et vendeurs'
+    version: '1.0.0'
     mapping:
         paths: ['%kernel.project_dir%/src/Entity']
     patch_formats:
