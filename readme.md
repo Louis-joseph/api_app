@@ -8,6 +8,8 @@ afin de fournir à l'application les informations demandées au format JSON.
 ## Environnement de développement
 
 symfony create-project symfony/skeleton api
+symfony composer req api
+require symfony/maker-bundle --dev
 
 
 ### Pré-requis
@@ -15,19 +17,22 @@ symfony create-project symfony/skeleton api
 - PHP 7.4 👐
 - Composer
 
+Vérifier les pré-requis :
+```bash
+symfony check:requirements
+```
+
 
 ### Lancer l'environnement de développement
-composer install
-symfony composer req api
-composer require --dev orm-fixtures
-
-### Design pattern
-
 ```bash
-
+composer install
+composer require orm-fixtures
+npm install
+npm run build
 ```
+
 ### Plateforme
 
 ```bash
-
+API Platform
 ```

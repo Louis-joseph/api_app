@@ -1,0 +1,82 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}👣 Feet Super Smart!
+{% endblock %}
+
+{% block body %}
+	<div class="container">
+		<nav class="navbar navbar-inverse navbar-expand-lg">
+			<a class="navbar-brand" href="/"><img class="logo" src="https://cdn.integromat.com/img/logo-white-type.svg" alt="Integromat" width="159" height="36"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headernav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="headernav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="/en/features">Sushi</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/en/pricing">Sushi</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/en/integrations">Apps &amp; Services</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/en/enterprise">Sushi</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/en/kb">Help &amp; Tutorials</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/en/login">Sushi</a>
+					</li>
+					<li class="nav-item">
+						<a class="btn-light nav-link ml-3" href="/en/register">Sushi</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="jumbotron clearfix text-md-left">
+			<div class="d-md-flex align-items-center">
+				<div class="col-lg-6">
+					<h1 class="hp-title">
+						<strong>Uberiser le pied</strong>
+						avec
+						<strong>Feet on Your</strong>
+						cake
+						<strong>ce n’est pas un mythe
+						</strong>
+					</h1>
+					<p class="lead">
+						lieux d’échanges de photos payantes entre fétichistes et vendeurs.</p>
+					<p class="header-features mt-5 mb-1">
+						<i class="far fa-check-circle pr-2"></i>
+					</p>
+					<p class="header-features mb-1">
+						<i class="far fa-check-circle pr-2"></i>
+					</p>
+					<a class="btn btn-success btn-lg mt-4" href="/en/register">Découvrir 👣!</a>
+				</div>
+				<div class="col-lg-5 d-none ml-auto">
+					<form sim-component="inplace-formula" data-url="api://register" data-save="Sign up for FREE" data-placeholders="yes" data-submit-style="success"></form>
+				</div>
+				<div class="col-lg-6 d-lg-block d-none"><img src="https://cdn.integromat.com/sites/homepage/img/header-image.png"></div>
+			</div>
+		</div>
+	</div>
+
+
+	<section class="trusted-companies bg-white">
+		<div class="container p-0">
+			<h2 class="hp-trusted text-center">
+				Ils nous ont fait confiance</h2>
+			<div class="trusted-logos flex-lg-nowrap flex-wrap justify-content-center">
+				<div class="logo">
+					<img class="img-fluid" src="https://cdn.integromat.com/sites/homepage/img/cisco.svg" alt=""></div>
+			</div>
+			<div class="logo">
+				<img class="img-fluid" src="https://cdn.integromat.com/sites/homepage/img/adidas.svg" alt=""></div>
+		</div>
+
+	{% endblock %}
