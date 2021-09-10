@@ -32,7 +32,7 @@ npm run build
 ```
 
 ### Plateforme
-
+localhost:8000/api
 ```bash
 API Platform
 ```
