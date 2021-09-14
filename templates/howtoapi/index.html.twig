@@ -1,0 +1,38 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Api Foyc! How api{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="example-wrapper">
+
+    <h1>Hello People ! ✅</h1>
+
+   <h4> API créee par des fans pour des fans. </h4>
+
+    <ul>
+        <li> Votre api à : <code><a href="{{ 'https://127.0.0.1:8000/api'}}">API Feet on your cake</a></code></li>
+        <li> Appréciez ! Ici votre fétichisme est sans tabou.</li>
+    </ul>
+
+
+    <div class="howapi">
+    
+     <h5> En manque d'aisselles ? </h5>
+     <h5> Vous pouvez naviguer à l'aide des différentes commandes : </h5>
+     <li> Get: Liste le contenu</li>
+    <li> Post: Création du contenu</li>
+    <li> Get id: Affiche détail d'un contenu particulier</li>
+    <li> Delete: Supprime le contenu</li>
+    <li> Put: Remplace le contenu</li>
+    <li> Patch: Modifie le contenu</li>
+<br>
+<li> Nos différentes catégories sont: aisselles, pieds, mains.. </li>
+    
+    </div>
+</div>
+{% endblock %}
