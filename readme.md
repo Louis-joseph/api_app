@@ -29,10 +29,12 @@ composer install
 composer require orm-fixtures
 npm install
 npm run build
+symfony serve
 ```
 
 ### Plateforme
 
 ```bash
-API Platform
+composer req api
+API Platform : documentation génerée grâce à Swagger UI capable de lire les dossier de définition d'open API et de générée une interface graphique
 ```
