@@ -31,3 +31,78 @@ button {
         font-weight: bold;
     }
 
+
+
+
+    .howapi {
+
+     background-color: lightblue;
+     padding: 100px;
+     box-shadow: 10px 5px 5px black;
+
+
+    }
+
+    h5 {
+
+        font-weight: bold;
+    }
+
+
+    #count {
+
+       
+
+            background-color: rgb(238, 144, 152);
+            padding: 40px;
+            box-shadow: 10px 5px 5px black;
+            font-size: 35px;
+            width: 742px;
+            border-radius: 12px;
+            position: absolute;
+            left:200px;
+            top: 200px;
+
+    }
+
+    
+
+    #lastid {
+
+       
+
+        background-color: rgb(20, 155, 165);
+        padding: 60px;
+        box-shadow: 10px 5px 5px black;
+        font-size: 35px;
+        width: 742px;
+        border-radius: 12px;
+        position: absolute;
+        left:200px;
+        top: 600px;
+   
+   
+
+
+}
+
+#pied{
+
+    height: 800px;
+    width: 600px;
+    position: absolute;
+    left: 1150px;
+    border-radius: 20px;
+    top: 100px;
+
+
+}
+
+
+#pied:hover{
+
+
+    border-radius: 25px;
+    box-shadow: 7px 4px 4px pink;
+
+}
