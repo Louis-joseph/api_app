@@ -49,6 +49,11 @@ class Foyc
      */
     private $Description;
 
+    /**
+     * @ORM\ManyToOne(targetEntity=Category::class, inversedBy="foycs")
+     */
+    private $Category;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -122,6 +127,18 @@ class Foyc
     public function setDescription(?string $Description): self
     {
         $this->Description = $Description;
+
+        return $this;
+    }
+
+    public function getCategory(): ?Category
+    {
+        return $this->Category;
+    }
+
+    public function setCategory(?Category $Category): self
+    {
+        $this->Category = $Category;
 
         return $this;
     }
