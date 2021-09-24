@@ -9,7 +9,7 @@ afin de fournir à l'application les informations demandées au format JSON.
 
 symfony create-project symfony/skeleton api
 symfony composer req api
-require symfony/maker-bundle --dev
+require symfony/maker-bundle --dev 📱
 
 
 ### Pré-requis
